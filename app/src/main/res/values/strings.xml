@@ -13,4 +13,8 @@
     <string name="log_in">Please LogIn First Bro</string>
     <string name="send_btn">Send</string>
     <string name="message_hint">Message:</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_up">SIGN UP HERE</string>
+    <string name="no_account">Don\'t have an account?</string>
 </resources>

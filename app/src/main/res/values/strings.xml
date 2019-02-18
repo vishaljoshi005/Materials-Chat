@@ -8,8 +8,8 @@
     <string name="action_settings">Settings</string>
     <string name="login">LOGIN</string>
     <string name="add_channel">Add Channel</string>
-    <string name="user_name">USERNAME</string>
-    <string name="user_email">USEREMAIL@EMAIL.COM</string>
+    <string name="user_name">Username</string>
+    <string name="user_email">username@email.com</string>
     <string name="log_in">Please LogIn First Bro</string>
     <string name="send_btn">Send</string>
     <string name="message_hint">Message:</string>
@@ -17,4 +17,8 @@
     <string name="password_hint">Password</string>
     <string name="sign_up">SIGN UP HERE</string>
     <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up_TEXT">SIGN UP</string>
+    <string name="user_avatar">Tap to Generate User Avatar</string>
+    <string name="create_acc">CREATE ACCOUNT</string>
+    <string name="gen_background">GENERATE BACKGROUND COLOR</string>
 </resources>

@@ -13,11 +13,11 @@
         android:id="@+id/userImageNavHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/loginBtnNavHeader"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profiledefault" />
 
@@ -49,18 +49,16 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="32dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="43dp"
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:onClick="loginBtnNavClicked"
         android:text="@string/login"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/userImageNavHeader" />
+        app:layout_constraintTop_toTopOf="@+id/addChannelBtn" />
 
     <ImageButton
         android:id="@+id/addChannelBtn"

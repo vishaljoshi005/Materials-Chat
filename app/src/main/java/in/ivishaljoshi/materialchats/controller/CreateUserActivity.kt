@@ -1,9 +1,11 @@
 package `in`.ivishaljoshi.materialchats.controller
 
 import `in`.ivishaljoshi.materialchats.R
+import `in`.ivishaljoshi.materialchats.services.AuthService
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import kotlinx.android.synthetic.main.activity_create_user.*
 import java.util.*
@@ -48,6 +50,9 @@ class CreateUserActivity : AppCompatActivity() {
         avatarColor = "[$savedR, $savedG, $savedB, 1 ]"
     }
     fun createUserBtnClicked(view:View){
+        AuthService.registerUser(this,"vishal@vishal.com","12345"){ complete->
+            Log.d("Deal", "Done")
+        }
 
     }
 }

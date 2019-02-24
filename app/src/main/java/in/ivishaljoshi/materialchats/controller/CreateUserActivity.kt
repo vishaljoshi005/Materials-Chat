@@ -75,8 +75,6 @@ class CreateUserActivity : AppCompatActivity() {
                                 if(createSuccess){
                                     val userDataChangeIntent = Intent(BROADCAST_USER_DATA_CHANGE)
                                     LocalBroadcastManager.getInstance(this).sendBroadcast(userDataChangeIntent)
-
-
                                     Log.d("qwe","createSuccess")
                                     enableSpinner(false)
                                     finish()

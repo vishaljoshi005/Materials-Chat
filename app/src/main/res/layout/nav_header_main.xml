@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/userImageNavHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
         android:contentDescription="@string/nav_header_desc"
@@ -27,10 +27,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/user_name"
         android:textColor="@color/colorAccent"
         app:layout_constraintStart_toEndOf="@+id/userImageNavHeader"
-        app:layout_constraintTop_toTopOf="@+id/userImageNavHeader" />
+        app:layout_constraintTop_toTopOf="@+id/userImageNavHeader"
+        tools:text="@string/user_name" />
 
     <TextView
         android:id="@+id/userEmailNavHeader"
@@ -38,11 +38,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
-        android:text="@string/user_email"
         android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="@+id/userImageNavHeader"
         app:layout_constraintStart_toEndOf="@+id/userImageNavHeader"
-        app:layout_constraintTop_toBottomOf="@+id/userNameNavHeader" />
+        app:layout_constraintTop_toBottomOf="@+id/userNameNavHeader"
+        tools:text="@string/user_email" />
 
     <Button
         android:id="@+id/loginBtnNavHeader"

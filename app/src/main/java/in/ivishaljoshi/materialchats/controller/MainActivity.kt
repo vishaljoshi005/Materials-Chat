@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
             //logout
             UserDataService.logout()
             nav_drawer_header_include.userEmailNavHeader.text = ""
-            nav_drawer_header_include.userNameNavHeader.text = "Login"
+            nav_drawer_header_include.userNameNavHeader.text = ""
             nav_drawer_header_include.userImageNavHeader.setImageResource(R.drawable.profiledefault)
             nav_drawer_header_include.userImageNavHeader.setBackgroundColor(Color.TRANSPARENT)
             nav_drawer_header_include.loginBtnNavHeader.text = "Login"
